@@ -26,7 +26,11 @@ I would like to thank both of my study groups for making this work such a great 
 
 ##URLs
 
+Application URL: https://astralgnome.github.io/Horiseon-SEO-Refactor/
+
 Github repository URL: https://github.com/AstralGnome/Horiseon-SEO-Refactor.git
+
+
 
 
 
