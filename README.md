@@ -26,8 +26,6 @@ I would like to thank both of my study groups for making this work such a great 
 
 ##URLs
 
-Deployed application URL: http://127.0.0.1:5500/index.html
-
 Github repository URL: https://github.com/AstralGnome/Horiseon-SEO-Refactor.git
 
 
