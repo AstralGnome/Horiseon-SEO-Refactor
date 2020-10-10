@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
   
-<!--An appropriate title is better than an ambiguous one.-->
+   <!--An appropriate title is better than an ambiguous one.-->
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css" />
@@ -10,33 +10,31 @@
 
   <body>
     
-    <!--Separating the header from from the nav bar seems a little more streamlined.-->
     <header class="header">
       <h1>Hori<span class="seo">seo</span>n</h1>
-    </header>
 
     <!--The "nav" tag helps with accessability.-->
     <nav class="nav">
-        <ul>
-            <li><a href="#search-engine-optimization">Search Engine Optimization</a></li>
+        <ul><li><a href="#search-engine-optimization">Search Engine Optimization</a></li>
             <li><a href="#online-reputation-management">Online Reputation Management</a></li>
             <li><a href="#social-media-marketing">Social Media Marketing</a></li>
         </ul>
     </nav>
-
+    </header>
+    
     <div class="hero" alt= "Four serious professionals brainstorming SEO">
     </div>
     
     <!--"Main" and "section" tags helps with accessability.-->
     <main class="content">
 
-        <!--Descriptive alt definitions help with accessability.-->
-        <section class="search-engine-optimization">
-               
+        <!--Moved floats over to CSS file; Descriptive alt definitions help with accessability.-->
+        <section id="search-engine-optimization" 
+                 class="search-engine-optimization">
+            
             <img
             src="./assets/images/search-engine-optimization.jpg"
-            alt="A personal notebook with 'SEO' written boldly in the middle of the page"
-            class="float-left">
+            alt="A personal notebook with 'SEO' written boldly in the middle of the page">
 
             <h2>Search Engine Optimization</h2>
             
@@ -48,12 +46,11 @@
         </section>
 
         <section id="online-reputation-management"
-            class="online-reputation-management"
-        >
+                 class="online-reputation-management">
+        
             <img
             src="./assets/images/online-reputation-management.jpg"
-            alt="An open laptop with 'reputation' written boldly along the top of the screen"
-            class="float-right">
+            alt="An open laptop with 'reputation' written boldly along the top of the screen">
             
             <h2>Online Reputation Management</h2>
                 
@@ -65,11 +62,12 @@
             </p>
         </section>
 
-        <section id="social-media-marketing" class="social-media-marketing">
+        <section id="social-media-marketing" 
+                 class="social-media-marketing">
+
             <img
             src="./assets/images/social-media-marketing.jpg"
-            alt="An array of social-media related symbols spread out on a large desk"
-            class="float-left">
+            alt="An array of social-media related symbols spread out on a large desk">
             
             <h2>Social Media Marketing</h2>
             
@@ -126,14 +124,11 @@
       </section>
     </aside>
     
-    <!--The "footer" tag helps with accessability.-->
-    <footer class="footer">
-      
-      <h2>Made with ❤️️ by Horiseon</h2>
-      
-    <!--"&copy;" displays as the copyright symbol.-->  
-      <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
-    </footer>
+    <!--Copyright isn't necessary and while "made with love" is cutesy, it is kind of
+      unprofessional; The "footer" tag would help with accessability; "&copy;" displays
+      the copyright symbol.--> 
+    
+    <footer class="footer"></footer>  
 
   </body>
 </html>
