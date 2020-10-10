@@ -14,7 +14,7 @@ Assistive technologies will now function smoothly on the screen. Additionally, y
 
 ##Mock-up
 
-![Horiseon Marketing Screenshot](Horiseon Marketing Screenshot.jpg)
+![](Horiseon%20Marketing%20Screenshot.jpg)
 
 ##SEO
 
